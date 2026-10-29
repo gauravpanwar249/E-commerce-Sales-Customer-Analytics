@@ -1,0 +1,59 @@
+// ============================================================================
+// PROJECT 1: E-COMMERCE SALES & CUSTOMER ANALYTICS — MASTER DAX MEASURES
+// Format: Ready to paste into Power BI Desktop Measure Editor
+// ============================================================================
+
+// --- 1. CORE FINANCIAL MEASURES ---
+Total Revenue = SUM(fact_order_items[revenue])
+Total Cost = SUM(fact_order_items[cost])
+Total Profit = [Total Revenue] - [Total Cost]
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0) * 100
+Total Discount Given = SUM(fact_order_items[discount_amount])
+Average Discount % = AVERAGE(fact_order_items[discount_pct]) * 100
+
+// --- 2. VOLUME & ORDER METRICS ---
+Total Orders = DISTINCTCOUNT(fact_orders[order_id])
+Total Units Sold = SUM(fact_order_items[quantity])
+Total Customers = DISTINCTCOUNT(dim_customers[customer_id])
+Average Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
+Average Units Per Order = DIVIDE([Total Units Sold], [Total Orders], 0)
+Delivered Orders = CALCULATE([Total Orders], fact_orders[order_status] = "Delivered")
+Cancellation Rate % = DIVIDE(CALCULATE([Total Orders], fact_orders[order_status] = "Cancelled"), [Total Orders], 0) * 100
+Return Rate % = DIVIDE(CALCULATE([Total Orders], fact_orders[order_status] = "Returned"), [Total Orders], 0) * 100
+
+// --- 3. CUSTOMER BEHAVIOR & REPEAT RETENTION ---
+Repeat Customers = 
+COUNTROWS(
+    FILTER(
+        VALUES(dim_customers[customer_id]),
+        CALCULATE([Total Orders]) > 1
+    )
+)
+
+Repeat Customer % = DIVIDE([Repeat Customers], [Total Customers], 0) * 100
+
+// --- 4. TIME INTELLIGENCE & MOM / YTD ---
+Revenue YTD = TOTALYTD([Total Revenue], dim_date[Date])
+Revenue MTD = TOTALMTD([Total Revenue], dim_date[Date])
+Previous Month Revenue = CALCULATE([Total Revenue], DATEADD(dim_date[Date], -1, MONTH))
+MoM Revenue Growth $ = [Total Revenue] - [Previous Month Revenue]
+MoM Revenue Growth % = DIVIDE([MoM Revenue Growth $], [Previous Month Revenue], 0) * 100
+
+Previous Year Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(dim_date[Date]))
+YoY Revenue Growth % = DIVIDE([Total Revenue] - [Previous Year Revenue], [Previous Year Revenue], 0) * 100
+
+// --- 5. TOP PERFORMER & DYNAMIC RANKINGS ---
+Top Product Revenue = 
+CALCULATE(
+    [Total Revenue],
+    TOPN(1, ALL(dim_products[product_name]), [Total Revenue], DESC)
+)
+
+Cumulative Revenue = 
+CALCULATE(
+    [Total Revenue],
+    FILTER(
+        ALLSELECTED(dim_date[Date]),
+        dim_date[Date] <= MAX(dim_date[Date])
+    )
+)

@@ -1,0 +1,156 @@
+product_id,product_name,category,sub_category,unit_price,unit_cost
+PROD-1001,Smartphones Model A1,Electronics,Smartphones,239.06,185.53
+PROD-1002,Smartphones Model B2,Electronics,Smartphones,345.91,233.05
+PROD-1003,Smartphones Model C3,Electronics,Smartphones,232.0,180.01
+PROD-1004,Smartphones Model D4,Electronics,Smartphones,586.29,439.94
+PROD-1005,Smartphones Model E5,Electronics,Smartphones,175.43,116.82
+PROD-1006,Smartphones Model F6,Electronics,Smartphones,336.13,252.89
+PROD-1007,Smartphones Model G7,Electronics,Smartphones,599.0,462.26
+PROD-1008,Smartphones Model H8,Electronics,Smartphones,711.06,512.9
+PROD-1009,Smartphones Model I9,Electronics,Smartphones,509.37,355.18
+PROD-1010,Smartphones Model J10,Electronics,Smartphones,845.44,658.6
+PROD-1011,Smartphones Model K11,Electronics,Smartphones,277.73,200.48
+PROD-1012,Smartphones Model L12,Electronics,Smartphones,372.3,255.62
+PROD-1013,Smartphones Model M13,Electronics,Smartphones,760.8,507.74
+PROD-1014,Laptops & Tablets Model A1,Electronics,Laptops & Tablets,416.06,344.13
+PROD-1015,Laptops & Tablets Model B2,Electronics,Laptops & Tablets,1024.47,841.16
+PROD-1016,Laptops & Tablets Model C3,Electronics,Laptops & Tablets,1175.68,917.54
+PROD-1017,Laptops & Tablets Model D4,Electronics,Laptops & Tablets,1467.74,1110.76
+PROD-1018,Laptops & Tablets Model E5,Electronics,Laptops & Tablets,962.45,793.45
+PROD-1019,Laptops & Tablets Model F6,Electronics,Laptops & Tablets,1042.22,864.27
+PROD-1020,Laptops & Tablets Model G7,Electronics,Laptops & Tablets,992.82,799.9
+PROD-1021,Laptops & Tablets Model H8,Electronics,Laptops & Tablets,354.99,260.63
+PROD-1022,Laptops & Tablets Model I9,Electronics,Laptops & Tablets,647.27,460.84
+PROD-1023,Laptops & Tablets Model J10,Electronics,Laptops & Tablets,579.35,414.32
+PROD-1024,Laptops & Tablets Model K11,Electronics,Laptops & Tablets,633.57,503.91
+PROD-1025,Accessories Model A1,Electronics,Accessories,25.57,12.04
+PROD-1026,Accessories Model B2,Electronics,Accessories,58.56,31.64
+PROD-1027,Accessories Model C3,Electronics,Accessories,59.43,24.62
+PROD-1028,Accessories Model D4,Electronics,Accessories,56.27,28.52
+PROD-1029,Accessories Model E5,Electronics,Accessories,30.91,15.22
+PROD-1030,Accessories Model F6,Electronics,Accessories,32.55,19.04
+PROD-1031,Accessories Model G7,Electronics,Accessories,59.73,26.52
+PROD-1032,Accessories Model H8,Electronics,Accessories,36.08,19.98
+PROD-1033,Accessories Model I9,Electronics,Accessories,18.64,10.52
+PROD-1034,Accessories Model J10,Electronics,Accessories,67.33,32.33
+PROD-1035,Audio & Headphones Model A1,Electronics,Audio & Headphones,72.47,46.28
+PROD-1036,Audio & Headphones Model B2,Electronics,Audio & Headphones,222.18,113.96
+PROD-1037,Audio & Headphones Model C3,Electronics,Audio & Headphones,172.47,91.26
+PROD-1038,Audio & Headphones Model D4,Electronics,Audio & Headphones,230.77,125.02
+PROD-1039,Audio & Headphones Model E5,Electronics,Audio & Headphones,84.6,42.24
+PROD-1040,Audio & Headphones Model F6,Electronics,Audio & Headphones,151.31,76.04
+PROD-1041,Audio & Headphones Model G7,Electronics,Audio & Headphones,156.53,98.55
+PROD-1042,Audio & Headphones Model H8,Electronics,Audio & Headphones,114.87,56.73
+PROD-1043,Men's Apparel Model A1,Fashion,Men's Apparel,70.95,26.12
+PROD-1044,Men's Apparel Model B2,Fashion,Men's Apparel,24.71,9.19
+PROD-1045,Men's Apparel Model C3,Fashion,Men's Apparel,82.74,42.07
+PROD-1046,Men's Apparel Model D4,Fashion,Men's Apparel,62.22,22.57
+PROD-1047,Men's Apparel Model E5,Fashion,Men's Apparel,58.16,31.94
+PROD-1048,Men's Apparel Model F6,Fashion,Men's Apparel,72.91,39.68
+PROD-1049,Men's Apparel Model G7,Fashion,Men's Apparel,106.08,37.37
+PROD-1050,Men's Apparel Model H8,Fashion,Men's Apparel,92.07,44.78
+PROD-1051,Men's Apparel Model I9,Fashion,Men's Apparel,73.7,29.73
+PROD-1052,Women's Apparel Model A1,Fashion,Women's Apparel,67.52,27.6
+PROD-1053,Women's Apparel Model B2,Fashion,Women's Apparel,44.77,15.7
+PROD-1054,Women's Apparel Model C3,Fashion,Women's Apparel,115.26,56.93
+PROD-1055,Women's Apparel Model D4,Fashion,Women's Apparel,146.49,73.6
+PROD-1056,Women's Apparel Model E5,Fashion,Women's Apparel,88.46,32.84
+PROD-1057,Women's Apparel Model F6,Fashion,Women's Apparel,103.16,53.47
+PROD-1058,Women's Apparel Model G7,Fashion,Women's Apparel,88.46,34.48
+PROD-1059,Women's Apparel Model H8,Fashion,Women's Apparel,71.74,27.43
+PROD-1060,Women's Apparel Model I9,Fashion,Women's Apparel,144.19,77.07
+PROD-1061,Women's Apparel Model J10,Fashion,Women's Apparel,139.81,65.68
+PROD-1062,Women's Apparel Model K11,Fashion,Women's Apparel,86.08,32.05
+PROD-1063,Women's Apparel Model L12,Fashion,Women's Apparel,70.37,38.5
+PROD-1064,Women's Apparel Model M13,Fashion,Women's Apparel,125.85,50.07
+PROD-1065,Footwear Model A1,Fashion,Footwear,179.87,115.01
+PROD-1066,Footwear Model B2,Fashion,Footwear,49.13,26.88
+PROD-1067,Footwear Model C3,Fashion,Footwear,46.42,27.95
+PROD-1068,Footwear Model D4,Fashion,Footwear,161.36,76.76
+PROD-1069,Footwear Model E5,Fashion,Footwear,113.42,63.51
+PROD-1070,Footwear Model F6,Fashion,Footwear,78.73,49.17
+PROD-1071,Footwear Model G7,Fashion,Footwear,104.82,51.61
+PROD-1072,Footwear Model H8,Fashion,Footwear,123.98,73.89
+PROD-1073,Footwear Model I9,Fashion,Footwear,68.19,34.94
+PROD-1074,Cookware & Dining Model A1,Home & Kitchen,Cookware & Dining,123.98,72.85
+PROD-1075,Cookware & Dining Model B2,Home & Kitchen,Cookware & Dining,102.81,53.89
+PROD-1076,Cookware & Dining Model C3,Home & Kitchen,Cookware & Dining,55.95,31.76
+PROD-1077,Cookware & Dining Model D4,Home & Kitchen,Cookware & Dining,114.13,62.32
+PROD-1078,Cookware & Dining Model E5,Home & Kitchen,Cookware & Dining,55.23,28.4
+PROD-1079,Cookware & Dining Model F6,Home & Kitchen,Cookware & Dining,120.98,66.03
+PROD-1080,Cookware & Dining Model G7,Home & Kitchen,Cookware & Dining,164.87,110.78
+PROD-1081,Cookware & Dining Model H8,Home & Kitchen,Cookware & Dining,31.34,17.16
+PROD-1082,Cookware & Dining Model I9,Home & Kitchen,Cookware & Dining,127.04,68.96
+PROD-1083,Cookware & Dining Model J10,Home & Kitchen,Cookware & Dining,41.17,28.29
+PROD-1084,Cookware & Dining Model K11,Home & Kitchen,Cookware & Dining,111.37,66.21
+PROD-1085,Cookware & Dining Model L12,Home & Kitchen,Cookware & Dining,145.54,96.27
+PROD-1086,Cookware & Dining Model M13,Home & Kitchen,Cookware & Dining,50.47,26.21
+PROD-1087,Small Appliances Model A1,Home & Kitchen,Small Appliances,149.83,100.99
+PROD-1088,Small Appliances Model B2,Home & Kitchen,Small Appliances,307.79,187.68
+PROD-1089,Small Appliances Model C3,Home & Kitchen,Small Appliances,242.57,173.76
+PROD-1090,Small Appliances Model D4,Home & Kitchen,Small Appliances,58.79,42.98
+PROD-1091,Small Appliances Model E5,Home & Kitchen,Small Appliances,288.18,178.58
+PROD-1092,Small Appliances Model F6,Home & Kitchen,Small Appliances,99.39,69.23
+PROD-1093,Small Appliances Model G7,Home & Kitchen,Small Appliances,83.46,52.83
+PROD-1094,Small Appliances Model H8,Home & Kitchen,Small Appliances,183.41,138.92
+PROD-1095,Small Appliances Model I9,Home & Kitchen,Small Appliances,63.37,47.24
+PROD-1096,Small Appliances Model J10,Home & Kitchen,Small Appliances,305.35,188.59
+PROD-1097,Small Appliances Model K11,Home & Kitchen,Small Appliances,242.16,168.86
+PROD-1098,Home Decor & Bedding Model A1,Home & Kitchen,Home Decor & Bedding,116.74,68.32
+PROD-1099,Home Decor & Bedding Model B2,Home & Kitchen,Home Decor & Bedding,104.11,45.11
+PROD-1100,Home Decor & Bedding Model C3,Home & Kitchen,Home Decor & Bedding,65.99,29.22
+PROD-1101,Home Decor & Bedding Model D4,Home & Kitchen,Home Decor & Bedding,57.11,23.51
+PROD-1102,Home Decor & Bedding Model E5,Home & Kitchen,Home Decor & Bedding,54.79,32.71
+PROD-1103,Home Decor & Bedding Model F6,Home & Kitchen,Home Decor & Bedding,42.85,23.86
+PROD-1104,Home Decor & Bedding Model G7,Home & Kitchen,Home Decor & Bedding,62.78,30.42
+PROD-1105,Home Decor & Bedding Model H8,Home & Kitchen,Home Decor & Bedding,115.52,69.21
+PROD-1106,Skincare Model A1,Beauty & Health,Skincare,63.63,25.28
+PROD-1107,Skincare Model B2,Beauty & Health,Skincare,26.81,9.21
+PROD-1108,Skincare Model C3,Beauty & Health,Skincare,16.56,7.4
+PROD-1109,Skincare Model D4,Beauty & Health,Skincare,16.75,6.08
+PROD-1110,Skincare Model E5,Beauty & Health,Skincare,15.91,6.29
+PROD-1111,Skincare Model F6,Beauty & Health,Skincare,83.71,34.01
+PROD-1112,Skincare Model G7,Beauty & Health,Skincare,16.44,6.6
+PROD-1113,Skincare Model H8,Beauty & Health,Skincare,78.4,24.59
+PROD-1114,Skincare Model I9,Beauty & Health,Skincare,17.3,8.17
+PROD-1115,Skincare Model J10,Beauty & Health,Skincare,43.49,21.24
+PROD-1116,Skincare Model K11,Beauty & Health,Skincare,56.43,23.46
+PROD-1117,Skincare Model L12,Beauty & Health,Skincare,15.1,4.78
+PROD-1118,Personal Care & Grooming Model A1,Beauty & Health,Personal Care & Grooming,39.18,17.81
+PROD-1119,Personal Care & Grooming Model B2,Beauty & Health,Personal Care & Grooming,56.74,22.18
+PROD-1120,Personal Care & Grooming Model C3,Beauty & Health,Personal Care & Grooming,45.81,18.22
+PROD-1121,Personal Care & Grooming Model D4,Beauty & Health,Personal Care & Grooming,29.79,14.43
+PROD-1122,Personal Care & Grooming Model E5,Beauty & Health,Personal Care & Grooming,25.0,10.33
+PROD-1123,Personal Care & Grooming Model F6,Beauty & Health,Personal Care & Grooming,47.59,17.35
+PROD-1124,Personal Care & Grooming Model G7,Beauty & Health,Personal Care & Grooming,32.91,18.09
+PROD-1125,Personal Care & Grooming Model H8,Beauty & Health,Personal Care & Grooming,59.8,21.81
+PROD-1126,Personal Care & Grooming Model I9,Beauty & Health,Personal Care & Grooming,20.66,8.33
+PROD-1127,Personal Care & Grooming Model J10,Beauty & Health,Personal Care & Grooming,56.66,29.81
+PROD-1128,Personal Care & Grooming Model K11,Beauty & Health,Personal Care & Grooming,53.96,22.87
+PROD-1129,Personal Care & Grooming Model L12,Beauty & Health,Personal Care & Grooming,17.89,9.24
+PROD-1130,Personal Care & Grooming Model M13,Beauty & Health,Personal Care & Grooming,45.18,21.34
+PROD-1131,Fitness Equipment Model A1,Sports & Outdoors,Fitness Equipment,304.67,168.05
+PROD-1132,Fitness Equipment Model B2,Sports & Outdoors,Fitness Equipment,373.18,227.59
+PROD-1133,Fitness Equipment Model C3,Sports & Outdoors,Fitness Equipment,308.62,227.7
+PROD-1134,Fitness Equipment Model D4,Sports & Outdoors,Fitness Equipment,86.4,49.51
+PROD-1135,Fitness Equipment Model E5,Sports & Outdoors,Fitness Equipment,74.96,49.52
+PROD-1136,Fitness Equipment Model F6,Sports & Outdoors,Fitness Equipment,144.39,96.88
+PROD-1137,Fitness Equipment Model G7,Sports & Outdoors,Fitness Equipment,331.4,195.76
+PROD-1138,Fitness Equipment Model H8,Sports & Outdoors,Fitness Equipment,296.38,178.66
+PROD-1139,Fitness Equipment Model I9,Sports & Outdoors,Fitness Equipment,235.18,171.93
+PROD-1140,Fitness Equipment Model J10,Sports & Outdoors,Fitness Equipment,385.36,219.06
+PROD-1141,Fitness Equipment Model K11,Sports & Outdoors,Fitness Equipment,207.9,125.85
+PROD-1142,Fitness Equipment Model L12,Sports & Outdoors,Fitness Equipment,31.49,22.18
+PROD-1143,Fitness Equipment Model M13,Sports & Outdoors,Fitness Equipment,297.59,179.27
+PROD-1144,Fitness Equipment Model N14,Sports & Outdoors,Fitness Equipment,341.32,225.39
+PROD-1145,Outdoor Gear Model A1,Sports & Outdoors,Outdoor Gear,134.38,70.2
+PROD-1146,Outdoor Gear Model B2,Sports & Outdoors,Outdoor Gear,209.28,133.56
+PROD-1147,Outdoor Gear Model C3,Sports & Outdoors,Outdoor Gear,54.07,27.42
+PROD-1148,Outdoor Gear Model D4,Sports & Outdoors,Outdoor Gear,97.0,59.22
+PROD-1149,Outdoor Gear Model E5,Sports & Outdoors,Outdoor Gear,108.81,55.32
+PROD-1150,Outdoor Gear Model F6,Sports & Outdoors,Outdoor Gear,96.11,65.99
+PROD-1151,Outdoor Gear Model G7,Sports & Outdoors,Outdoor Gear,214.58,109.0
+PROD-1152,Outdoor Gear Model H8,Sports & Outdoors,Outdoor Gear,94.77,60.31
+PROD-1153,Outdoor Gear Model I9,Sports & Outdoors,Outdoor Gear,155.05,88.49
+PROD-1154,Outdoor Gear Model J10,Sports & Outdoors,Outdoor Gear,134.18,90.56
+PROD-1155,Outdoor Gear Model K11,Sports & Outdoors,Outdoor Gear,214.9,139.66
